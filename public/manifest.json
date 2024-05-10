@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Minimal Manifest",
+    "version": "1.0.0",
+    "action":{
+      "default_popup":"index.html"
+    },
+    "permissions":[
+       "scripting"
+    ],
+    "description": "A basic example extension with only required keys",
+    "icons": {
+        "128": "images/social-media.png"
+    },
+     "host_permissions":[
+         "http://*/*",
+         "https://*/*"
+     ]
+  }

@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #baf6fa;
+}
+
+.container {
+  width: 80%;
+  max-width: 400px; /* Adjust maximum width as needed */
+  text-align: center; /* Center the contents horizontally */
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the contents horizontally */
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px;
+  justify-content: center;
+}
+
+.social-media-link {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: initial;
+  justify-content: center; /* Align labels and inputs in the same row */
+  
+}
+
+.social-media-link label {
+  margin-right: 10px;
+}
+
+.social-media-link input {
+  flex: 1;
+  padding: 5px;
+}
+
+.social-media-link button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px; /* Add spacing between copy buttons */
+}
+
+.social-media-link button:hover {
+  background-color: #0056b3;
+}
+
+button.save {
+  padding: 10px 20px;
+  
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 50%; /* Move button to the center horizontally */
+  transform: translateX(-50%); /* Center the button horizontally */
+ 
+
+}
+
+button.save:hover {
+  background-color: #218838;
+}
+
+.save{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  padding-left: 24%;
+}
+.saveit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.box{
+  border: #007bff;
+  border-radius: 5%;
+  background-color: #c2ddfa;
+}
